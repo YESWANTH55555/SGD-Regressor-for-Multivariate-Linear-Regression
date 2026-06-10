@@ -29,7 +29,7 @@ Developed by: Yeswanth Peddepi
 RegisterNumber:  24010970
 */
 
-```
+
 import numpy as np
 
 from sklearn.datasets import fetch_california_housing
@@ -83,6 +83,7 @@ mse = mean_squared_error(y_test,y_pred)
 print("Mean Squared Error:",mse)
 
 print("\nPredictions:\n",y_pred[:5])
+```
 ## Output:
 ![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
 ![Screenshot (65)](https://github.com/user-attachments/assets/36db7858-406a-4441-ab9e-2ccf6ec8ebf5)
